@@ -27,6 +27,7 @@ function sendData(addUser) {
     })
     .catch(error => {
         console.log(error);
+
     });
 }
 getData();
