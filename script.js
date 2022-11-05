@@ -21,14 +21,13 @@ function sendData(addUser) {
             'Content-type': 'application/json; charset=UTF-8',
         },
     })
-        .then(response => response.json())
-        .then(addUser => {
-            console.log(addUser);
-        })
-        .catch(error => {
-            console.log(error);
-
-        });
+    .then(response => response.json())
+    .then(addUser => {
+        console.log(addUser);
+    })
+    .catch(error => {
+        console.log(error);
+    });
 }
 getData();
 
